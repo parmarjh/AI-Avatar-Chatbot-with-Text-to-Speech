@@ -1,0 +1,22 @@
+flowchart TD
+    A[User Input] --> B{Input Processor}
+    B --> C[NLP Analysis]
+    B --> D[Context Detection]
+    
+    C --> E{Response Generator}
+    D --> E
+    
+    E --> F[Text Response]
+    E --> G[Animation Control]
+    
+    F --> H[Text to Speech]
+    G --> I[Avatar Animation]
+    
+    H --> J[Audio Output]
+    I --> K[Visual Display]
+    
+    J --> L[Synchronized Output]
+    K --> L
+    
+    L --> M[User Feedback Loop]
+    M --> A
